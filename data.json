@@ -1,0 +1,65 @@
+{
+    "departments": {
+      "id": "departments",
+      "name": "Departments",
+      "link": "",
+      "parent": "",
+      "children": ["food"]
+    },
+    "myShop": {
+      "id": "myShop",
+      "name": "My Shop",
+      "link": "/my-shop",
+      "parent": "",
+      "children": ["mostPurchased", "pastOrders"]
+    },
+    "discover": {
+      "id": "",
+      "name": "Discover",
+      "link": "/discover",
+      "parent": "",
+      "children": []
+    },
+    "covid19": {
+      "id": "",
+      "name": "Covid-19",
+      "link": "/covid-19",
+      "parent": "",
+      "children": []
+    },
+    "food": {
+      "id": "",
+      "name": "food",
+      "link": "/food",
+      "parent": "departments",
+      "children": ["meat", "fruitsAndVegetables"]
+    },
+    "meat": {
+      "id": "meat",
+      "name": "meat",
+      "link": "/meat",
+      "parent": "departments",
+      "children": []
+    },
+    "fruitsAndVegetables": {
+      "id": "fruitsAndVegetables",
+      "name": "Fruits & Vegetables",
+      "link": "/fruits-vegetables",
+      "parent": "departments",
+      "children": []
+    },
+    "mostPurchased": {
+      "id": "",
+      "name": "Most purchased",
+      "link": "/most-purchased",
+      "parent": "myShop",
+      "children": []
+    },
+    "pastOrders": {
+      "id": "",
+      "name": "Past Orders",
+      "link": "/past-orders",
+      "parent": "myShop",
+      "children": []
+    }
+  }
